@@ -11,6 +11,9 @@ header {
     border: solid 2px #fff;
     margin: 1.5% 10%;
     padding: 1%;
+    @include mquery("medium") {
+      margin: 20px;    
+    }
   }
 
   .mobile-menu {

@@ -66,11 +66,25 @@ footer {
   li {
     display: block;
     text-align: center;
+
+    @include mquery("medium") {
+      display: inline-block;
+    }
+
+  }
+}
+
+.mobile-menu {
+  @include mquery("medium") {
+    display: none;
   }
 }
 
 .hide-menu {
   display: none;
+  @include mquery("medium") {
+    display: block;
+  }
 }
 
 
