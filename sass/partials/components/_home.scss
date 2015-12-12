@@ -1,0 +1,25 @@
+header {
+  color: $white;
+	background-color: $orange;
+
+  a {
+    color: $white;
+  }
+
+  .menu li {
+    @include font-size(16);
+    border: solid 2px #fff;
+    margin: 1.5% 10%;
+    padding: 1%;
+  }
+}
+
+.main-news > a,
+.news > a {
+  @include font-size(16);
+}
+
+.title {
+  color: $orange;
+  border-bottom: 1px solid;
+}

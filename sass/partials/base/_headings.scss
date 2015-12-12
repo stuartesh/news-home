@@ -1,0 +1,35 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $contrast-font;
+    line-height: 1.2;
+    margin: 0;
+}
+
+h1 {
+    @include font-size(34);
+}
+
+h2 {
+    @include font-size(30);
+}
+
+h3 {
+    @include font-size(24);
+}
+
+h4 {
+    @include font-size(22);
+}
+
+h5 {
+    @include font-size(18);
+    color: $dark-gray;
+}
+
+h6 {
+    @include font-size(14);
+}

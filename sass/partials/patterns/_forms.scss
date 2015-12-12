@@ -1,0 +1,33 @@
+form {
+    overflow: hidden;
+    transition: 1s;
+    width: 450px;
+
+    button {
+        @include button(red, red, red); //$color-border-type, $color-hover-type, $color-hover-background
+    }
+    input {
+        @include font-size(16);
+        border: 0;
+        margin: 16px 0;
+        padding: 20px 20px;
+        width: 100%;
+    }
+    span {
+        border-bottom: 1px solid $gray;
+        display: block;
+        margin: 30px 0;
+    }
+}
+
+input[type="button"] {
+    @include button(red, red, red); //$color-border-type, $color-hover-type, $color-hover-background
+}
+
+input[type="reset"] {
+    @include button(red, red, red); //$color-border-type, $color-hover-type, $color-hover-background
+}
+
+input[type="submit"] {
+    @include button(red, red, red); //$color-border-type, $color-hover-type, $color-hover-background
+}
