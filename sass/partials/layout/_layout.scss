@@ -20,11 +20,16 @@ header {
     @include span-columns(4);
     @include omega();
   }
+  
+  form {
+    @include span-columns(6);
+  }
 
   time {
     display: block;
     @include span-columns(12);
   }
+
 }
 
 footer {
@@ -61,7 +66,7 @@ footer {
 
 // Menu/Nav section.
 .menu {
-  @include span-columns(12);
+  @include span-columns(6);
 
   li {
     display: block;
