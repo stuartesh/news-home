@@ -1,0 +1,32 @@
+aside {
+  box-shadow: 0 0 4px $orange;
+  padding: 5%;
+  text-align: center;
+
+
+  h4 {
+    margin: 2%;
+    color: $orange;
+  }
+
+  .most-popular {
+    box-shadow: 0 0 4px $orange;
+
+    li {
+      padding: 2%;
+    }
+  }
+
+  .subscription {
+    box-shadow: 0 0 4px $orange;
+    
+    .email {
+      text-align: center;
+    }
+
+    .subscribe-btn {
+      margin-bottom: 5%;
+      cursor: pointer;
+    }
+  }
+}

@@ -3,9 +3,6 @@ form {
     transition: 1s;
     width: 450px;
 
-    button {
-        @include button(red, red, red); //$color-border-type, $color-hover-type, $color-hover-background
-    }
     input {
         @include font-size(16);
         border: 0;
@@ -13,6 +10,7 @@ form {
         padding: 20px 20px;
         width: 100%;
     }
+
     span {
         border-bottom: 1px solid $gray;
         display: block;

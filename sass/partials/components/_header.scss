@@ -1,0 +1,37 @@
+header {
+	background-color: $orange;
+  color: $white;
+  padding: 2%;
+
+  a {
+    color: $white;
+  }
+
+  .menu li {
+    border: solid 2px #fff;
+    margin: 1.5% 10%;
+    padding: 1%;
+  }
+
+  .mobile-menu {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  time {
+    @include font-size(16);
+  }
+}
+
+.social-media {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      border: 1px solid $white;
+      display: inline-block;
+      padding: 15px;
+      margin-left: 5px;
+    }
+  }

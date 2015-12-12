@@ -2,6 +2,6 @@
 // Buttons
 //
 button {
-    @include button(red, red, red); //$color-border-type, $color-hover-type, $color-hover-background
+    @include button($main-color, $main-color, $white); //$color-border-type, $color-hover-type, $color-hover-background
     transition: all 0.2s ease-in-out;
 }

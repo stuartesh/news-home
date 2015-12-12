@@ -1,17 +1,18 @@
-header {
-  color: $white;
-	background-color: $orange;
+// Home styles
+.content {
+  padding: 5%;
 
-  a {
-    color: $white;
+  h3 {
+    margin: 10px 0;
   }
 
-  .menu li {
+  p {
     @include font-size(16);
-    border: solid 2px #fff;
-    margin: 1.5% 10%;
-    padding: 1%;
   }
+}
+
+.most-popular {
+  list-style: none; 
 }
 
 .main-news > a,
@@ -19,7 +20,17 @@ header {
   @include font-size(16);
 }
 
+.more-news {
+  li {
+    list-style: none;
+  }
+}
+
 .title {
   color: $orange;
   border-bottom: 1px solid;
+}
+
+section {
+  padding: 5% 0;
 }

@@ -1,0 +1,17 @@
+footer {
+  color: $white;
+	background-color: $orange;
+  padding: 2%;
+
+  a {
+    color: $white;
+  }
+
+  .menu li {
+    @include font-size(16);
+    border: solid 2px #fff;
+    margin: 10px;
+    padding: 1%;
+    display: inline-block
+  }
+}

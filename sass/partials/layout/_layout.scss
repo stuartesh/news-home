@@ -1,6 +1,19 @@
+// Aside section
+aside {
+  @include span-columns(12);
+
+  .most-popular {
+    @include span-columns(12);
+  }
+
+  .subscription {
+    @include span-columns(12);
+  }
+}
+
+// Header and footer sections
 header {
   @include span-columns(12);
-  padding: 2%;
     
   h1,
   h2 {
@@ -8,41 +21,45 @@ header {
     @include omega();
   }
 
-  .social-media {
-    float: right;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
-    li {
-      display: inline-block;
-      padding: 15px; 
-    }
-  }
-
   time {
-    display: none;
+    display: block;
+    @include span-columns(12);
   }
 }
 
+footer {
+  @include span-columns(12);
+    
+  h5 {
+    @include span-columns(4);
+    @include omega();
+  }
+}
+
+.social-media {
+  float: right;
+
+  li {
+    display: inline-block;
+  }
+}
+
+// Content section.
 .content {
   @include outer-container;
   clear: both;
 
   section {
     @include span-columns(12);
-    padding: 5%;
   }
 
   .more-news {
     @include span-columns(12);
 
-    li {
-      list-style: none;
-    }
   }
 }
 
+// Menu/Nav section.
 .menu {
   @include span-columns(12);
 
@@ -52,16 +69,16 @@ header {
   }
 }
 
-.news {
-  margin: 5% 0;
-}
-
 .hide-menu {
   display: none;
+}
+
+
+// News display format.
+.news {
+  margin: 5% 0;
 }
 
 footer {
   @include span-columns(12);
 }
-
-
