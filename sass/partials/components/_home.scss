@@ -2,6 +2,10 @@
 .content {
   padding: 5%;
 
+  @include mquery("medium") {
+    padding: 0;
+  }
+
   h3 {
     margin: 10px 0;
   }
@@ -26,6 +30,10 @@
   }
 }
 
+.news {
+  padding: 50px 0;
+}
+
 .title {
   color: $orange;
   border-bottom: 1px solid;
@@ -33,4 +41,8 @@
 
 section {
   padding: 5% 0;
+
+  @include mquery("medium") {
+    padding: 5% 20px;
+  }
 }

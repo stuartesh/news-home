@@ -63,6 +63,16 @@ footer {
 
   }
 }
+  
+.news {
+  @include mquery("medium") {
+
+    img {
+      @include span-columns(6);
+    }
+  }
+}
+
 
 // Menu/Nav section.
 .menu {

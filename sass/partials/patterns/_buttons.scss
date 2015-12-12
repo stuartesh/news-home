@@ -8,4 +8,8 @@ button {
 
 button a {
 	color: $white;
+
+	@include mquery("medium") {
+    color: inherit;
+  }
 }

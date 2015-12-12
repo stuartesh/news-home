@@ -147,6 +147,9 @@ button {
 
 button a {
   color: #fff; }
+  @media only screen and (min-width: 56.25em) {
+    button a {
+      color: inherit; } }
 
 iframe {
   margin-top: 9px;
@@ -326,6 +329,15 @@ footer {
     .content .more-news:last-child {
       margin-right: 0; }
 
+@media only screen and (min-width: 56.25em) {
+  .news img {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 48.821174201%; }
+    .news img:last-child {
+      margin-right: 0; } }
+
 .menu {
   float: left;
   display: block;
@@ -407,6 +419,9 @@ footer {
 
 .content {
   padding: 5%; }
+  @media only screen and (min-width: 56.25em) {
+    .content {
+      padding: 0; } }
   .content h3 {
     margin: 10px 0; }
   .content p {
@@ -424,12 +439,18 @@ footer {
 .more-news li {
   list-style: none; }
 
+.news {
+  padding: 50px 0; }
+
 .title {
   color: #D78A16;
   border-bottom: 1px solid; }
 
 section {
   padding: 5% 0; }
+  @media only screen and (min-width: 56.25em) {
+    section {
+      padding: 5% 20px; } }
 
 aside {
   box-shadow: 0 0 4px #D78A16;
@@ -449,5 +470,4 @@ aside {
     aside .subscription .subscribe-btn {
       margin-bottom: 5%;
       cursor: pointer; }
-
 /*# sourceMappingURL=main.css.map */
