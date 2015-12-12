@@ -145,6 +145,9 @@ button {
         background-color: #30A9D0;
         color: #fff; } }
 
+button a {
+  color: #fff; }
+
 iframe {
   margin-top: 9px;
   vertical-align: top;
